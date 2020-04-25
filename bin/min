@@ -8,4 +8,4 @@ groceries = {
   grains: ["rice", "pasta"]
 }
 
-puts get_the_min(groceries)
+puts groceries.values.flatten.min
